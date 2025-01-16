@@ -1,8 +1,8 @@
 ---
-title: "Cyber Scooter"
-excerpt: "This custom electric vehicle can reach speeds of up 30 MPH and has a range of over 50 miles!"
+title: "Syringe Pump"
+excerpt: "The syringe pump enables precise and controlled delivery of fluids at adjustable flow rates for experimental applications."
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
+  image: /assets/img/Syringe Pump.png
   teaser: /assets/img/Cyber-Scooter-TH.jpg
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
