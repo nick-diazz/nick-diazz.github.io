@@ -6,22 +6,25 @@ title: "About Nick Diaz"
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Nick Diaz is a mechanical engineering student with a focus on innovative design, engineering management, and digital fabrication. His academic work includes hands-on projects and coursework that bridge technical expertise with practical problem-solving. 
 
 * Vanderbilt University (Expected Graduation: May 2025)
-  * BE Mechanical Engineering with a minors in Engineering Management and Digital Fabrication
+  * Pursuing a Bachelor of Engineering (BE) in Mechanical Engineering
+  * Minors in Engineering Management and Digital Fabrication
   
 
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Experience in microtechnology research, including magnetic artificial cilia for medical devices.
+Skilled in sensor integration, prototyping, and innovative mechanical design.
+
 
 * Fused Filament Fabrication (FFF)
-* 
-* 
-* 
-* 
+* Computer-Aided Design (CAD)
+* Fabrication Tools: CNC machining, laser cutting, and PCB design (EASYEDA)
+* Programming: Arduino coding, MATLAB
+* Systems Engineering: Strong foundation in modeling, design, and problem-solving
 
 ## Press 
 
