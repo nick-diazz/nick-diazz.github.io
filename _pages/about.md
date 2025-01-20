@@ -21,7 +21,8 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
 **Undergraduate Summer Research Intern**  
 *May 2024 – Jul 2024*  
 - Designed and revised ingestible capsule prototypes using EASYEDA, improving medical robotics for diagnostic capabilities.  
-- Developed sensor integration techniques for capsule endoscopes and delivered a technical presentation on project findings.  
+- Developed sensor integration techniques for capsule endoscopes and delivered a technical presentation on project findings. - Worked closely with the Dong Lab Group, contributing to the integration of multiple sensors into capsule endoscope robots   for improved diagnostic capabilities.
+- Prepared and delivered a comprehensive technical talk for a research group meeting, detailing the research background, proposed methods, project results, challenges, and future directions. 
 
 ### QuikTrip  
 **Clerk**  
