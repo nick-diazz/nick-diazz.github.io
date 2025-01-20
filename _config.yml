@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
+  avatar           : "assets/img/Screenshot 2025-01-19 233818.png"
   bio              : "An Mehcanical Engineering Major with a passion for designing and prototyping innovative mechanical systems "
   location         : "Lawrenceville, GA"
   links:
