@@ -13,7 +13,7 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
   * Minors in Engineering Management and Digital Fabrication
 
 
-  ## Work Experience
+## Work Experience
 
 ### Vanderbilt University  
 **Undergraduate Summer Research Intern**  
