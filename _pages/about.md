@@ -31,12 +31,12 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
 - Managed inventory, cashiering, and store cleanliness, ensuring operational efficiency in a fast-paced environment.  
 
 ### Amazon.com  
-**Sortation Associate**  
+**Sortation Associate (AMAZON WAREHOUSE)**  
 *Jun 2024 – Jul 2024*  
 - Sorted and processed packages with precision, adhering to safety protocols and maintaining workflow efficiency.  
 
 ### PRIME NOW LLC  
-**Prime Now Associate**  
+**Prime Now Associate (AMAZON GROCERY)**  
 *Jul 2022 – Aug 2022*  
 - Prepared and packaged customer orders accurately, upholding organizational standards and time-sensitive delivery goals.
 
