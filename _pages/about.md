@@ -11,7 +11,33 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
 * Vanderbilt University (Expected Graduation: May 2025)
   * Pursuing a Bachelor of Engineering (BE) in Mechanical Engineering
   * Minors in Engineering Management and Digital Fabrication
-  
+
+
+  ## Work Experience
+
+## Work Experience
+
+### Vanderbilt University  
+**Undergraduate Summer Research Intern**  
+*May 2024 – Jul 2024*  
+- Designed and revised ingestible capsule prototypes using EASYEDA, improving medical robotics for diagnostic capabilities.  
+- Developed sensor integration techniques for capsule endoscopes and delivered a technical presentation on project findings.  
+
+### QuikTrip  
+**Clerk**  
+*Feb 2021 – Present*  
+- Managed inventory, cashiering, and store cleanliness, ensuring operational efficiency in a fast-paced environment.  
+
+### Amazon.com  
+**Sortation Associate**  
+*Jun 2024 – Jul 2024*  
+- Sorted and processed packages with precision, adhering to safety protocols and maintaining workflow efficiency.  
+
+### PRIME NOW LLC  
+**Prime Now Associate**  
+*Jul 2022 – Aug 2022*  
+- Prepared and packaged customer orders accurately, upholding organizational standards and time-sensitive delivery goals.
+
 
 
 ## Technical Skills
@@ -22,11 +48,11 @@ Skilled in sensor integration, prototyping, and innovative mechanical design.
 
 * Fused Filament Fabrication (FFF)
 * Computer-Aided Design (CAD)
-* Fabrication Tools: CNC machining, laser cutting, and PCB design (EASYEDA)
-* Programming: Arduino coding, MATLAB
+* Fabrication Tools: Laser cutting and PCB design (EASYEDA)
+* Programming: Arduino, MATLAB
 * Systems Engineering: Strong foundation in modeling, design, and problem-solving
 
-## Press 
+## Publications 
 
 The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
 
