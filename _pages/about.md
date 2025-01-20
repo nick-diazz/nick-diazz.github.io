@@ -14,7 +14,6 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
 
 
 ## Work Experience
-
 ### Vanderbilt University  
 **Undergraduate Summer Research Intern**  
 *May 2024 – Jul 2024*  
