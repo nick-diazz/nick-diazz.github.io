@@ -8,8 +8,8 @@ gallery:
   - url: /assets/img/unnamed.png
     image_path: assets/img/unnamed.png
     alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
+  - url: /assets/img/Syringe Pump.png
+    image_path: assets/img/Syringe Pump.png
     alt: "placeholder image 2"
   - url: /assets/img/Cyber-Scooter-3.jpg
     image_path: assets/img/Cyber-Scooter-3.jpg
