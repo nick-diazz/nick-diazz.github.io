@@ -5,8 +5,8 @@ header:
   image: /assets/img/Syringe Pump.png
   teaser: /assets/img/Syringe Pump.png
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
+  - url: /assets/img/unnamed.png
+    image_path: assets/img/unnamed.png
     alt: "placeholder image 1"
   - url: /assets/img/Cyber-Scooter-2.jpg
     image_path: assets/img/Cyber-Scooter-2.jpg
