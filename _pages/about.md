@@ -44,12 +44,20 @@ Nick Diaz is a mechanical engineering student with a focus on innovative design,
 Experience in microtechnology research, including magnetic artificial cilia for medical devices.
 Skilled in sensor integration, prototyping, and innovative mechanical design.
 
+### Digital Fabrication Tools
+- Fused Filament Fabrication (FFF)
+- Laser Cutting and PCB Design (EASYEDA)
 
-* Fused Filament Fabrication (FFF)
-* Computer-Aided Design (CAD)
-* Fabrication Tools: Laser cutting and PCB design (EASYEDA)
-* Programming: Arduino, MATLAB
-* Systems Engineering: Strong foundation in modeling, design, and problem-solving
+### Computer-Aided Design (CAD)
+- Proficient in Fusion 360 and SolidWorks
+
+### Programming
+- Experienced in Arduino and MATLAB
+
+### Engineering Management
+- Proficient in project management methodologies, including Agile and Waterfall techniques, for planning, execution, and monitoring.  
+- Skilled in managing cross-functional teams and timelines to deliver complex engineering projects efficiently.  
+- Experience with task prioritization, resource allocation, and risk assessment to ensure successful project outcomes.
 
 ## Publications 
 
