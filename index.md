@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/img/wondry-650x454.jpg
+  overlay_image: assets/img/V_Engineering_White_Text.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
