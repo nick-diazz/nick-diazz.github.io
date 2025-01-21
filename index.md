@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/img/V_Engineering_White_Text.png
+  overlay_image: assets/img/vanderbilt-university-peabody-college-quad-gr2b9oeqjd16k4bc.jpg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
