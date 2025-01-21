@@ -59,8 +59,20 @@ Skilled in sensor integration, prototyping, and innovative mechanical design.
 - Skilled in managing cross-functional teams and timelines to deliver complex engineering projects efficiently.  
 - Experience with task prioritization, resource allocation, and risk assessment to ensure successful project outcomes.
 
-## Publications 
+## Honors/Awards
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+### 2020 National College Match Finalist  
+*Issued by QuestBridge – Nov 2020*  
+- Achieved recognition as a finalist in a highly competitive program for outstanding high school seniors from low-income backgrounds.  
+- Successfully completed an extensive application process, including academic records, personal essays, and extracurricular achievements.  
+- Provided comprehensive financial information and obtained strong letters of recommendation to demonstrate eligibility.  
+- Named a finalist among top candidates nationwide for a full four-year scholarship to one of QuestBridge’s partner colleges.  
+- While not matched with a college, this achievement highlights academic excellence, resilience, and readiness for higher education.  
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+### College Prep Scholars Program  
+*Issued by QuestBridge – May 2020*  
+- Participated in a prestigious program for high-achieving, low-income high school juniors.  
+- Received personalized feedback to strengthen college applications.  
+- Awarded a full scholarship to attend a prestigious summer program.  
+- Engaged in exclusive college admissions conferences and campus visits.  
+- Built connections with peers and mentors from leading institutions to prepare for the college admissions process.
