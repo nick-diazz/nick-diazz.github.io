@@ -50,7 +50,7 @@ The syringe pump project aims to deliver fluids at controlled flow rates for app
 
 ### Arduino Code
 The Arduino code controlling the syringe pump is available in the project repository.  
-[View Code](link_to_github_repository)
+[View Code](https://github.com/nick-diazz/Syringe_PUMP-Arduino_Code)
 
 ---
 
