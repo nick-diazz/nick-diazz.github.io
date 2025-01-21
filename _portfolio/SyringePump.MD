@@ -32,23 +32,25 @@ The syringe pump project aims to deliver fluids at controlled flow rates for app
 ---
 
 ### Off-the-Shelf Parts
-| **Part Name**        | **Quantity** | **Description**                |
-|-----------------------|--------------|--------------------------------|
-| Stepper Motor         | 1            | Provides precise rotational motion. |
+
+| **Part Name**        | **Quantity** | **Description**                           |
+|-----------------------|--------------|-------------------------------------------|
+| Stepper Motor         | 1            | Provides precise rotational motion.       |
 | Lead Screw            | 1            | Converts rotational motion to linear movement. |
-| Arduino Uno           | 1            | Microcontroller for system control. |
+| Arduino Uno           | 1            | Microcontroller for system control.       |
 | Power Supply          | 1            | Provides required voltage for the system. |
 | Push Buttons          | 3            | Latching and momentary buttons for user input. |
-| Potentiometer         | 1            | Adjusts the fluid flow rate. |
+| Potentiometer         | 1            | Adjusts the fluid flow rate.              |
 
 ---
 
 ### 3D-Printed Parts
-| **Part Name**         | **Quantity** | **Material**       | **Purpose**                  |
-|-----------------------|--------------|--------------------|------------------------------|
-| Syringe Holder        | 1            | PLA                | Holds the syringe securely. |
-| Motor Bracket         | 1            | PLA                | Mounts the stepper motor. |
-| Enclosure             | 1            | PLA                | Protects electronics. |
+
+| **Part Name**         | **Quantity** | **Material** | **Purpose**                  |
+|-----------------------|--------------|--------------|------------------------------|
+| Syringe Holder        | 1            | PLA          | Holds the syringe securely.  |
+| Motor Bracket         | 1            | PLA          | Mounts the stepper motor.    |
+| Enclosure             | 1            | PLA          | Protects electronics.        |
 
 ---
 
