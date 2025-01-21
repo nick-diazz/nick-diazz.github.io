@@ -7,7 +7,7 @@ header:
   overlay_image: assets/img/vanderbilt-university-peabody-college-quad-gr2b9oeqjd16k4bc.jpg
   actions:
     - label: "My Projects"
-      url: "/portfolio/"
+      url: "_portfolio"
 excerpt: "This website serves as a professional portfolio highlighting my journey and achievements in additive and polymer-based manufacturing. The site showcases technical projects, innovative designs, and academic accomplishments, reflecting my dedication to advancing engineering solutions."
 feature_row:
   - image_path: assets/img/Syringe Pump.png
