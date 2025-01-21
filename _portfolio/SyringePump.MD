@@ -11,8 +11,8 @@ gallery:
   - url: /assets/img/Syringe Pump.png
     image_path: assets/img/Syringe Pump.png
     alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
+  - url: /assets/img/circuit-Syringe.png
+    image_path: assets/img/circuit-Syringe.png
     alt: "placeholder image 3"
 ---
 
