@@ -26,7 +26,7 @@ The syringe pump project aims to deliver fluids at controlled flow rates for app
 ---
 
 ### Final Design
-![Rendered Syringe Pump Design](link_to_image)  
+![Rendered Syringe Pump Design](assets/img/unnamed.png)  
 *A real-life image or rendering of the syringe pump.*
 
 ---
