@@ -14,6 +14,10 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Built for precise fluid delivery for experiments."
+  - image_path: assets/img/Plasma-Cutter-Banner.jpg
+    alt: "placeholder image 2"
+    title: "DIY Microfluidics Mold"
+    excerpt: "A resin-printed mold that enhances precision in microfluidic pinch-flow sorting."
 ---
 
 {% include feature_row %}
