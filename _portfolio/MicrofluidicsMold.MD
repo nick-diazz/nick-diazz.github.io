@@ -1,9 +1,9 @@
 ---
-title: "3D-Printed Syringe Pump"
-excerpt: "The syringe pump enables precise and controlled delivery of fluids at adjustable flow rates for experimental applications."
+title: "Resin-Printed Microfluidics Mold"
+excerpt: "A resin-printed mold that enhances precision in microfluidic pinch-flow sorting."
 header:
-  image: /assets/img/Syringe Pump.png
-  teaser: /assets/img/Syringe Pump.png
+  image: /assets/img/Screenshot 2025-03-16 184559.png
+  teaser: /assets/img/Screenshot 2025-03-16 184559.png
 gallery:
   - url: /assets/img/unnamed.png
     image_path: assets/img/unnamed.png
