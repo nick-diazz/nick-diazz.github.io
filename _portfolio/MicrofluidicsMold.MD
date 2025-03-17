@@ -66,16 +66,24 @@ One specific application of particle sorting through PFF is the isolation of cir
 - [Density and Specific Gravity of Water and Other Liquids](https://www.cospheric.com/density_specific_gravity_of_water_and_other_liquids.htm)
 - [Lu & Xuan, 2015. Particle separation and sorting in microfluidic devices: A Review](https://link.springer.com/article/10.1007/s10404-013-1291-9)
 - [Rapid prototyping of cell culture microdevices using parylene-coated 3D prints](https://pubs.rsc.org/en/content/articlelanding/2021/lc/d1lc00744k)
+
 ---
 
-### Operating Instructions
-1. **Assembly**: Mount the stepper motor, lead screw, and syringe holder. Secure all components.
-2. **Install the Syringe**: Fill the syringe with the desired fluid, remove air bubbles, and insert it into the holder.
-3. **Connect to Power**: Connect the system to a 12V power supply.
-4. **Upload Code**: Use the Arduino IDE to upload the control code to the microcontroller.
-5. **Start Operation**: Adjust the flow rate using the potentiometer and press the start button.
-6. **Monitor Operation**: Observe LED indicators to track the state (green for running, yellow for paused, red for empty).
-7. **Shutdown**: Turn off the power supply and clean the syringe after use.
+### Discussion
+
+**Parylene Coating and Applications**  
+Resin-printed molds are coated with parylene to prevent PDMS curing inhibition and achieve a smooth surface suitable for effective bonding with glass substrates. Parylene coating significantly reduces surface roughness and facilitates easy removal of PDMS from molds, thus enhancing device reliability. Hypothetical applications of this microfluidic sorter include biomedical diagnostics (such as blood cell sorting), environmental monitoring (e.g., separating microplastics), and pharmaceutical quality control.
+
+**Sorting Geometry**  
+The design geometry supports pinch-flow fractionation by precisely controlling fluid dynamics. The critical pinch width is sized at approximately 1.2–1.5 times the diameter of the largest target particle (425–500 µm) to avoid clogging and ensure effective single-layer particle separation. Outlet channels are symmetrically designed, with matched lengths and widths to maintain equal flow rates and avoid recombination of particle streams. Inlet and outlet ports are strategically positioned at least 11 mm apart, ensuring barb compatibility and preventing interference. Channels are positioned at least 3 mm from device edges to enable strong bonding to a glass slide and prevent leakage.
+
+**Ensuring Consistent Flow Rates**  
+
+
+**Potential Improvements**  
+
+**Bonus Opportunity**  
+
 
 ---
 
