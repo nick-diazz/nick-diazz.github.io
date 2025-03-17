@@ -62,7 +62,7 @@ One specific application of particle sorting through PFF is the isolation of cir
 - Bond your PDMS device to a glass slide using plasma treatment to form a secure, leak-free microfluidic device.
 - Ensure proper alignment and consistent bonding to maintain structural integrity and functional efficiency.
 
-### References
+#### References
 - [Density and Specific Gravity of Water and Other Liquids](https://www.cospheric.com/density_specific_gravity_of_water_and_other_liquids.htm)
 - [Lu & Xuan, 2015. Particle separation and sorting in microfluidic devices: A Review](https://link.springer.com/article/10.1007/s10404-013-1291-9)
 - [Rapid prototyping of cell culture microdevices using parylene-coated 3D prints](https://pubs.rsc.org/en/content/articlelanding/2021/lc/d1lc00744k)
