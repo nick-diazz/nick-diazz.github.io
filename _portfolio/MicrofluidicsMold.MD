@@ -17,11 +17,11 @@ gallery:
 ---
 
 ### Purpose and Features
-The syringe pump project aims to deliver fluids at controlled flow rates for applications such as healthcare, microfluidics, and industrial use. It offers a cost-effective, customizable alternative to traditional syringe pumps by utilizing 3D printing and Arduino programming. Key features include:
-- Adjustable flow rates (1–10 mL/min) using a potentiometer.
-- Compatibility with syringes of varying diameters (10 mL to 20 mL).
-- LED indicators for operation states (running, paused, or empty).
-- Manual adjustments using momentary buttons for precision control.
+This project utilizes resin-printed molds for precise particle sorting in microfluidic pinch-flow fractionation, offering an efficient, customizable method for micro-scale fluid analysis. Key features include:
+- High-resolution molds printed using SLA technology.
+- Symmetrical channel design for balanced flow distribution.
+- Outlet optimization for easy fraction collection.
+- Parylene-coated surfaces for smooth, reliable PDMS casting.
 
 ---
 
