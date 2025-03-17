@@ -16,25 +16,26 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-### Introduction/Purpose 
+# Introduction/Purpose 
 This project utilizes resin-printed molds for precise particle sorting in microfluidic pinch-flow fractionation, offering an efficient, customizable method for micro-scale fluid analysis. Key features include:
 - High-resolution molds printed using SLA technology.
 - Symmetrical channel design for balanced flow distribution.
 - Outlet optimization for easy fraction collection.
 - Parylene-coated surfaces for smooth, reliable PDMS casting.
 
-#### Microfluidic Devices
-Microfluidic devices manipulate tiny fluid volumes, typically on the microliter or smaller scale, to perform precise operations such as particle sorting, fluid mixing, and chemical reactions. These compact systems exploit the physics of fluid flow at microscale to precisely control fluid behavior, making them valuable tools in analytical chemistry, biological analysis, and medical diagnostics.
+### Microfluidic Devices
+Microfluidic devices manipulate tiny fluid volumes, typically on the microliter or smaller scale, to perform precise     operations such as particle sorting, fluid mixing, and chemical reactions. These compact systems exploit the physics of fluid flow at microscale to precisely control fluid behavior, making them valuable tools in analytical chemistry, biological analysis, and medical diagnostics.
 
-#### Pinch Flow Fractionation
+### Pinch Flow Fractionation
 Pinch Flow Fractionation (PFF) is a microfluidic technique used to separate particles based on size. In PFF, particles are initially focused into a narrow stream within a microchannel, creating a "pinch" region. When the channel expands downstream, smaller particles migrate toward the walls faster than larger particles due to differences in their positions in the laminar velocity profile. This leads to particle separation into distinct outlet streams according to size.
 
-#### Application
+### Application
 One specific application of particle sorting through PFF is the isolation of circulating tumor cells (CTCs) from blood samples. Effective sorting of these cells can greatly enhance cancer diagnosis and monitoring. A study demonstrated that PFF could reliably separate rare cancer cells from blood components, significantly improving early detection and therapeutic outcomes ([Lu & Xuan, 2015](https://link.springer.com/article/10.1007/s10404-013-1291-9)).
 
 #### References
 - [Density and Specific Gravity of Water and Other Liquids](https://www.cospheric.com/density_specific_gravity_of_water_and_other_liquids.htm)
 - [Lu & Xuan, 2015. Particle separation and sorting in microfluidic devices: A Review](https://link.springer.com/article/10.1007/s10404-013-1291-9)
+
 ---
 
 ### Off-the-Shelf Parts
