@@ -16,7 +16,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-# Introduction/Purpose 
+## Introduction/Purpose 
 This project utilizes resin-printed molds for precise particle sorting in microfluidic pinch-flow fractionation, offering an efficient, customizable method for micro-scale fluid analysis. Key features include:
 - High-resolution molds printed using SLA technology.
 - Symmetrical channel design for balanced flow distribution.
@@ -38,38 +38,34 @@ One specific application of particle sorting through PFF is the isolation of cir
 
 ---
 
-### Off-the-Shelf Parts
-
-| **Part Name**        | **Quantity** | **Description**                           |
-|-----------------------|--------------|-------------------------------------------|
-| Stepper Motor         | 1            | Provides precise rotational motion.       |
-| Lead Screw            | 1            | Converts rotational motion to linear movement. |
-| Arduino Uno           | 1            | Microcontroller for system control.       |
-| Power Supply          | 1            | Provides required voltage for the system. |
-| Push Buttons          | 3            | Latching and momentary buttons for user input. |
-| Potentiometer         | 1            | Adjusts the fluid flow rate.              |
-
----
-
-### 3D-Printed Parts
-
-| **Part Name**         | **Quantity** | **Material** | **Purpose**                  |
-|-----------------------|--------------|--------------|------------------------------|
-| Syringe Holder        | 1            | PLA          | Holds the syringe securely.  |
-| Motor Bracket         | 1            | PLA          | Mounts the stepper motor.    |
-| Enclosure             | 1            | PLA          | Protects electronics.        |
-
----
-
-### Arduino Code
-The Arduino code controlling the syringe pump is available in the project repository.  
-[View Code](https://github.com/nick-diazz/Syringe_PUMP-Arduino_Code)
-
----
+## Instructions
 
 ### Interactive 3D Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc1395df3c21536d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+- Design your microfluidic mold using Fusion 360, ensuring all sketches and features are fully constrained and clearly labeled.
+- Maintain minimum dimensions based on printer specifications (XY resolution: 25 μm, Z resolution: 25 μm).
+- Use 1.5 mm extrusions for inlet and outlet connections.
 
+### Print and Cure Mold
+- Print the mold using the Form 3+/4 SLA printers, selecting appropriate layer thickness (typically 0.05 mm or 0.025 mm).
+- Ensure the bottom face of the mold (which contacts the glass slide) remains perfectly flat to prevent layer lines.
+- Wash the printed mold for 5 minutes in FormWash, followed by an additional 5-minute wash in fresh IPA. Dry thoroughly for 30 minutes and cure the mold surface for 60 seconds at room temperature.
+
+### Parylene Device
+- Coat your resin-printed mold with parylene to ensure a smooth, reliable casting surface for PDMS and to avoid curing inhibition issues caused by uncured resin residues.
+
+### Cast PDMS
+- Cast polydimethylsiloxane (PDMS) onto the parylene-coated mold.
+- Cure the PDMS according to recommended heat cure times (24 hours at 23°C, 4 hours at 65°C, or 15 minutes at 150°C).
+
+### Plasma Bond Glass Slide
+- Bond your PDMS device to a glass slide using plasma treatment to form a secure, leak-free microfluidic device.
+- Ensure proper alignment and consistent bonding to maintain structural integrity and functional efficiency.
+
+## References
+- [Density and Specific Gravity of Water and Other Liquids](https://www.cospheric.com/density_specific_gravity_of_water_and_other_liquids.htm)
+- [Lu & Xuan, 2015. Particle separation and sorting in microfluidic devices: A Review](https://link.springer.com/article/10.1007/s10404-013-1291-9)
+- [Rapid prototyping of cell culture microdevices using parylene-coated 3D prints](https://pubs.rsc.org/en/content/articlelanding/2021/lc/d1lc00744k)
 ---
 
 ### Operating Instructions
