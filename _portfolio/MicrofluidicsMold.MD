@@ -6,13 +6,13 @@ header:
   teaser: /assets/img/Screenshot 2025-03-16 184559.png
 gallery:
   - url: /assets/img/unnamed.png
-    image_path: assets/img/unnamed.png
+    image_path: assets/img/IMG_2802 (2).jpg
     alt: "placeholder image 1"
-  - url: /assets/img/Syringe Pump.png
-    image_path: assets/img/Syringe Pump.png
+  - url: /assets/img/IMG_2805 (1).jpg
+    image_path: assets/img/IMG_2805 (1).jpg
     alt: "placeholder image 2"
-  - url: /assets/img/circuit-Syringe.png
-    image_path: assets/img/circuit-Syringe.png
+  - url: /assets/img/IMG_2802 (2).jpg
+    image_path: assets/img/IMG_2802 (2).jpg
     alt: "placeholder image 3"
 ---
 
