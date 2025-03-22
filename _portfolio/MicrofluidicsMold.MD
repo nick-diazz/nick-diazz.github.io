@@ -52,15 +52,20 @@ One specific application of particle sorting through PFF is the isolation of cir
 - Wash the printed mold for 5 minutes in FormWash, followed by an additional 5-minute wash in fresh IPA. Dry thoroughly for 30 minutes and cure the mold surface for 60 seconds at room temperature.
 
 ### Parylene Device
-- Coat your resin-printed mold with parylene to ensure a smooth, reliable casting surface for PDMS and to avoid curing inhibition issues caused by uncured resin residues.
+- After printing the mold with resin, coat it with a thin layer of parylene using a vapor deposition process. This step is crucial because uncured resin left on the mold surface can inhibit PDMS curing, leading to sticky or partially cured PDMS devices.
+- The parylene coating creates a uniform, inert, and ultra-smooth surface that makes demolding easier and helps produce cleaner, more reliable PDMS channels.
+- It also improves the durability of the mold, allowing for multiple PDMS castings from the same print.
 
 ### Cast PDMS
-- Cast polydimethylsiloxane (PDMS) onto the parylene-coated mold.
+- Mix the PDMS base and curing agent at a 10:1 ratio (e.g., SYLGARD™ 184), and degas the mixture in a vacuum chamber to remove air bubbles that can distort channels and interfere with fluid flow.
+- Carefully pour or spin-coat the PDMS onto the parylene-coated mold, ensuring that it fills all channel features without trapping air.
 - Cure the PDMS according to recommended heat cure times (24 hours at 23°C, 4 hours at 65°C, or 15 minutes at 150°C).
+- Once cured, gently peel the PDMS layer off the mold, ensuring that the microfeatures remain intact.
 
 ### Plasma Bond Glass Slide
 - Bond your PDMS device to a glass slide using plasma treatment to form a secure, leak-free microfluidic device.
 - Ensure proper alignment and consistent bonding to maintain structural integrity and functional efficiency.
+- Proper bonding is essential for the device to withstand flow pressure and prevent leaking. Ensure that alignment is precise to avoid distortion in the channel network and maintain consistent flow characteristics.
 
 #### References
 - [Density and Specific Gravity of Water and Other Liquids](https://www.cospheric.com/density_specific_gravity_of_water_and_other_liquids.htm)
