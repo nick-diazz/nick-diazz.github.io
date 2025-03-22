@@ -44,8 +44,7 @@ One specific application of particle sorting through PFF is the isolation of cir
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc1395df3c21536d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 - Design your microfluidic mold using Fusion 360, ensuring all sketches and features are fully constrained and clearly labeled.
 - Maintain minimum dimensions based on printer specifications (XY resolution: 25 μm, Z resolution: 25 μm).
-- Use 1.5 mm extrusions for inlet and outlet connections.
-
+- Use 1.5 mm extrusions for inlet and outlet connections to ensure compatibility with standard barbed fittings. Channels should be at least 1.2–1.5 times wider than the largest particles to avoid clogging, and transitions should be smooth to minimize dead volumes and maintain laminar flow. Ensure a minimum spacing of 3 mm between channels and the mold edge to support bonding and structural integrity, and place inlets and outlets at least 11 mm apart (center-to-center) to avoid interference between fittings. Additionally, limit tall, narrow features to an aspect ratio of 4:1 or less to reduce the risk of failure during printing or demolding.
 ### Print and Cure Mold
 - Print the mold using the Form 3+/4 SLA printers, selecting appropriate layer thickness (typically 0.05 mm or 0.025 mm).
 - Ensure the bottom face of the mold (which contacts the glass slide) remains perfectly flat to prevent layer lines.
