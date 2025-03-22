@@ -5,8 +5,8 @@ header:
   image: /assets/img/Screenshot 2025-03-16 184559.png
   teaser: /assets/img/Screenshot 2025-03-16 184559.png
 gallery:
-  - url: /assets/img/unnamed.png
-    image_path: assets/img/IMG_2802 (2).jpg
+  - url: /assets/img/IMG_2804 (1).jpg
+    image_path: assets/img/IMG_2804 (1).jpg
     alt: "placeholder image 1"
   - url: /assets/img/IMG_2805 (1).jpg
     image_path: assets/img/IMG_2805 (1).jpg
