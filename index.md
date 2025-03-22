@@ -16,7 +16,7 @@ feature_row:
     excerpt: "Built for precise fluid delivery for experiments."
   - image_path: assets/img/Screenshot 2025-03-16 184559.png
     alt: "Microfluidics Mold"
-    title: "DIY Microfluidics Mold"
+    title: "Microfluidics Mold"
     excerpt: "A resin-printed mold that enhances precision in microfluidic pinch-flow sorting."
 ---
 
