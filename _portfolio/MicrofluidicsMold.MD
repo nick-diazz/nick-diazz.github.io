@@ -78,12 +78,13 @@ Resin-printed molds are coated with parylene to prevent PDMS curing inhibition a
 The design geometry supports pinch-flow fractionation by precisely controlling fluid dynamics. The critical pinch width is sized at approximately 1.2–1.5 times the diameter of the largest target particle (425–500 µm) to avoid clogging and ensure effective single-layer particle separation. Outlet channels are symmetrically designed, with matched lengths and widths to maintain equal flow rates and avoid recombination of particle streams. Inlet and outlet ports are strategically positioned at least 11 mm apart, ensuring barb compatibility and preventing interference. Channels are positioned at least 3 mm from device edges to enable strong bonding to a glass slide and prevent leakage.
 
 **Ensuring Consistent Flow Rates**  
-
+To ensure each outlet had the same flow rate and the particles stayed separated, I designed the outlet layout so that the bottom half of the outlet section mirrors that of the top half. This helped keep the pressure the same across all the channels. Because of this setup, the smallest particles naturally went through the top outlet, and the slightly bigger ones went through the second one below it. The equal layout made the flow smooth and predictable, which helped the sorting work properly.
 
 **Potential Improvements**  
+After fabricating and testing the microfluidic device, it performed successfully. Particles were sorted correctly, with smaller particles consistently flowing through the top channel, and larger particles being directed to the channel immediately below it. The bottom two channels functioned effectively to expel excess water. Future improvements could involve refining the leveling of the testing setup for enhanced ease of setup and achieving better test results
 
 **Bonus Opportunity**  
-
+Although the bonus opportunity was not attempted, one possible solution would be to design and 3D print a simple manifold device with symmetrical tubing pathways and integrated leveling adjustments to ensure equal backpressure and uniform flow rates across all microfluidic device outlets. This approach would minimize variations caused by tubing length, diameter, and positioning.  
 
 ---
 
