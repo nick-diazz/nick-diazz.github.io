@@ -18,6 +18,10 @@ feature_row:
     alt: "Microfluidics Mold"
     title: "Microfluidics Mold"
     excerpt: "A resin-printed mold that enhances precision in microfluidic pinch-flow sorting."
+    - image_path: assets/img/Syringe Pump.png
+    alt: "Multimaterial Pliers"
+    title: "Multimaterial Pliers"
+    excerpt: "Design and 3D print multi-material pliers with a flexible spring."
 ---
 
 {% include feature_row %}
