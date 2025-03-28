@@ -8,8 +8,8 @@ gallery:
   - url: /assets/img/PLiers 1.jpg
     image_path: assets/img/PLiers 1.jpg
     alt: "Fully assembled pliers with TPU spring"
-  - url: /assets/img/Pliers2.jpg
-    image_path: assets/img/Pliers2.jpg
+  - url: /assets/img/IMG_2832.jpg
+    image_path: assets/img/IMG_2832.jpg
     alt: "Top view of open jaws"
   - url: /assets/img/Pliers3.jpg
     image_path: assets/img/Pliers3.jpg
