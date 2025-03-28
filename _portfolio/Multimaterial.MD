@@ -96,15 +96,19 @@ The pliers snapped together easily and operated smoothly thanks to the TPU sprin
 
 {% include gallery caption="Gallery showing printed pliers and design process." %}
 
-<!-- Stacked Imgur album embeds -->
+<!-- First Imgur Album Embed -->
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/RFCUgJ5" data-context="false" style="margin-bottom: 2rem;">
   <a href="https://imgur.com/a/RFCUgJ5">View Album 1</a>
 </blockquote>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/kENeOPF" data-context="false">
-  <a href="https://imgur.com/a/kENeOPF">View Album 2</a>
-</blockquote>
+<!-- Second Imgur Album Embed -->
+<div id="imgur-embed-second">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="a/kENeOPF" data-context="false">
+    <a href="https://imgur.com/a/kENeOPF">View Album 2</a>
+  </blockquote>
+</div>
 
+<!-- Ensure the embed.js is included only once -->
 <script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
