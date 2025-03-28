@@ -108,6 +108,7 @@ The pliers snapped together easily and operated smoothly thanks to the TPU sprin
 - Add ribbing or grip texture on handles for ergonomic use.
 - Modify wedge dimensions to improve print reliability and component retention.
 - Modify the tips of the claws so they are angled outward from the vertical plane, allowing the jaws to rest in a wider open position by default.
+
 ---
 
 ### Multimedia
