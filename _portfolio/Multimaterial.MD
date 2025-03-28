@@ -24,10 +24,21 @@ Print-in-place designs are multi-component models printed as a single object or 
 
 More complex assemblies may benefit from **multi-material prints**, where elastic materials like TPU are combined with rigid ones to simulate springs, gaskets, or soft-touch parts. This project used 95A TPU for the spring.
 
-**Example of print-in-place applications:**  
-- Hinges and joints in 3D-printed toys  
-- Working gearboxes  
-- Prosthetic components with flexible interfaces ([All3DP article](https://all3dp.com/3d-printed-flexible-pliers/))
+**Examples of print-in-place applications:**
+
+- **Hinges and joints in 3D-printed toys**  
+  Articulated toys, chains, and flexible models rely on built-in hinges and joints that print as a single unit. These moving parts are possible thanks to carefully designed tolerances that allow rotation or bending immediately after printing. Design guides recommend specific spacing and geometries to prevent fused joints and ensure smooth motion.  
+  *Sources:*  
+  [Endeavor 3D – Designing 3D Printed Hinges and Interlocking Components](https://endeavor3d.com/designing-3d-printed-hinges-and-interlocking-components/)  
+  [All3DP – 40+ Coolest Print-in-Place 3D Models](https://all3dp.com/2/coolest-print-in-place-3d-models/)
+
+- **Working gearboxes**  
+  Gearboxes like planetary gears or differential drives can be printed in one go with correct tolerances between gear teeth and shafts. This eliminates post-assembly and is useful for prototyping mechanical systems.  
+  *Source: [Instructables – Print-in-Place Spring-Loaded Box](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)*
+
+- **Prosthetic components with flexible interfaces**  
+  In some low-cost prosthetic designs, flexible TPU joints or hinges are printed directly into the device. These components allow motion, reduce part count, and make the device more comfortable.  
+  *Source: [nTop – 3D Printing in Prosthetics: A Design Guide](https://www.ntop.com/resources/blog/3d-printing-in-prosthetics-a-design-guide/)*
 
 ---
 
