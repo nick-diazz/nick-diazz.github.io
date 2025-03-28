@@ -11,7 +11,7 @@ gallery:
   - url: /assets/img/IMG_2832.jpg
     image_path: assets/img/IMG_2832.jpg
     alt: "Top view of open jaws"
-  - url: <blockquote class="imgur-embed-pub" lang="en" data-id="a/RFCUgJ5" data-context="false" ><a href="//imgur.com/a/RFCUgJ5"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  - url: /<blockquote class="imgur-embed-pub" lang="en" data-id="a/RFCUgJ5" data-context="false" ><a href="//imgur.com/a/RFCUgJ5"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     image_path: <blockquote class="imgur-embed-pub" lang="en" data-id="a/RFCUgJ5" data-context="false" ><a href="//imgur.com/a/RFCUgJ5"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     alt: "Iteration testing flexible spring"
 ---
