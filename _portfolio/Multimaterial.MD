@@ -98,7 +98,7 @@ More complex assemblies may benefit from **multi-material prints**, where elasti
 - The final version had an optimized jaw taper for precision gripping of small resistors.  
 
 **Figure:**  
-![Wedge Misalignment Example](assets/img/IMG_2838.jpg)  
+![Wedge Misalignment Example](/assets/img/IMG_2838.jpg)  
 *Image showing wedge slipping issue under compression.*
 
 **Performance Review**  
