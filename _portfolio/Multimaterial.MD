@@ -102,9 +102,8 @@ The pliers snapped together easily and operated smoothly thanks to the TPU sprin
 
 **Future Improvements**  
 - Add ribbing or grip texture on handles for ergonomic use.
-- Integrate snap-fit features to better retain the spring under tension.
-- Explore printing the entire system in-place on the multi-material printer for full automation.
-
+- Modify wedge dimensions to improve print reliability and component retention.
+- Modify the tips of the claws so they are angled outward from the vertical plane, allowing the jaws to rest in a wider open position by default.
 ---
 
 ### Multimedia
