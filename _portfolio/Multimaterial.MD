@@ -91,11 +91,15 @@ More complex assemblies may benefit from **multi-material prints**, where elasti
 ### Discussion
 
 **Challenges and Iterations**  
-- Early prints lacked sufficient clearance between the jaws and the hinge, resulting in fused parts.
-- A test piece was printed for the spring-fit to dial in tolerances.
-- TPU presented some challenges during printing, particularly with occasional stringing in areas with long travel moves or retraction gaps.
-- When printing the spring component, if the retaining wedges were too small, the printer tended to round them off or print them as rectangles, which compromised their ability to securely hold all five parts together.
-- The final version had an optimized jaw taper for precision gripping of small resistors.
+- Early prints lacked sufficient clearance between the jaws and the hinge, resulting in fused parts.  
+- TPU presented some challenges during printing, particularly with occasional stringing in areas with long travel moves or retraction gaps.  
+- When printing the spring component, if the retaining wedges were too small, the printer tended to round them off or print them as rectangles, which compromised their ability to securely hold all five parts together.  
+- In early tests, the wedges would sometimes slip out of place when the handles were squeezed firmly, indicating the need for improved geometry or tighter fitment.  
+- The final version had an optimized jaw taper for precision gripping of small resistors.  
+
+**Figure:**  
+![Wedge Misalignment Example](assets/img/IMG_2838.jpg)  
+*Image showing wedge slipping issue under compression.*
 
 **Performance Review**  
 The pliers snapped together easily and operated smoothly thanks to the TPU spring. They reliably gripped small components, returning to the open position without user input.
