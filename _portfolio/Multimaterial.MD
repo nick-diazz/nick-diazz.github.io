@@ -96,4 +96,10 @@ The pliers snapped together easily and operated smoothly thanks to the TPU sprin
 
 {% include gallery caption="Gallery showing printed pliers and design process." %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Pliers Function Demo" frameborder="0" allowfullscreen></iframe>
+<!-- Imgur embed starts here -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/RFCUgJ5" data-context="false">
+  <a href="//imgur.com/a/RFCUgJ5">View post on Imgur</a>
+</blockquote>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<!-- Imgur embed ends here -->
+
