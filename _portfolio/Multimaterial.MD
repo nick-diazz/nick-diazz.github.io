@@ -2,11 +2,11 @@
 title: "Multi-Material Spring-Loaded Pliers"
 excerpt: "Flexible, print-in-place needle nose pliers designed for precision gripping using rigid and elastic components."
 header:
-  image: /assets/img/Screenshot-pliers-header.png
-  teaser: /assets/img/Screenshot-pliers-header.png
+  image: /assets/img/PLiers 1.jpg
+  teaser: /assets/img/PLiers 1.jpg
 gallery:
-  - url: /assets/img/Pliers1.jpg
-    image_path: assets/img/Pliers1.jpg
+  - url: /assets/img/PLiers 1.jpg
+    image_path: assets/img/PLiers 1.jpg
     alt: "Fully assembled pliers with TPU spring"
   - url: /assets/img/Pliers2.jpg
     image_path: assets/img/Pliers2.jpg
