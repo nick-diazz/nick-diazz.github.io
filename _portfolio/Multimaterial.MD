@@ -34,7 +34,7 @@ More complex assemblies may benefit from **multi-material prints**, where elasti
 ## Design Process
 
 ### Interactive CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SHxyz...example" width="640" height="480" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a42f32e15944736827?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 - CAD was developed in Fusion 360 with a fully constrained, timeline-organized model.
 - Top-down modeling principles guided the component relationships.
