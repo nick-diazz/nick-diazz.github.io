@@ -17,7 +17,7 @@ gallery:
 ---
 
 ## Introduction/Purpose
-This project focused on designing needle nose pliers capable of gripping through-hole resistors using a print-in-place approach and incorporating a flexible spring component. The final design featured a 3-part assembly (2 rigid arms and 1 TPU spring) that requires no tools to assemble, functioning immediately after pressing the pieces together.
+This project focused on designing needle nose pliers capable of gripping through-hole resistors using a print-in-place approach and incorporating a flexible spring component. The final design featured a 5-part assembly (2 rigid claws, 2 rigid handles, and 1 TPU spring) that requires no tools to assemble, functioning immediately after pressing the pieces together.
 
 ### What is Print-in-Place?
 Print-in-place designs are multi-component models printed as a single object or pre-assembled kit, with built-in clearances that allow moving parts to function directly after printing—no screws, glue, or assembly required. These designs are commonly seen in toys, tools, and hinges, and they showcase the precision possible in 3D printing.
@@ -53,45 +53,49 @@ More complex assemblies may benefit from **multi-material prints**, where elasti
 
 ### Spring Component
 - The TPU spring geometry was iteratively tested and modeled for optimal flexibility.
-- A U-shaped arch flexed outward under compression and returned the jaws to the open state.
-- Multiple spring thicknesses were tested for durability and opening capacity.
+- The final spring design featured a rhombus-shaped component that flexed outward under compression and reliably returned the pliers to the open state when released.
+- To enhance elasticity, the **top and bottom solid layers of the spring were removed**, leaving only the internal structure exposed. This reduced material stiffness and allowed for more responsive deformation.
+- A **grid infill pattern** was used, which provided multidirectional flexibility and structural consistency under repeated use.
+- The infill density was reduced to approximately **25%**, striking a balance between durability and springiness.
+- Multiple versions were printed with varying rhombus dimensions and infill patterns to test how geometry influenced the spring’s restoring force and overall performance.
+
 
 ---
 
 ## Specifications
 
-| Feature              | Specification                  |
-|----------------------|--------------------------------|
-| Total Length         | ~100 mm                        |
-| Jaw Length           | 35 mm                          |
-| Jaw Capacity         | ~5–6 mm at tips                |
-| Material (Handles)   | PLA                            |
-| Material (Spring)    | TPU (95A)                      |
-| Assembly             | Tool-free, hand-pressed        |
+| Feature                | Specification           |
+|------------------------|-------------------------|
+| Total Length           | ~300 mm                 |
+| Jaw Length             | 110 mm                  |
+| Jaw Capacity           | ~5–6 mm at tips         |
+| Material (Handles/Jaws)| PLA                     |
+| Material (Spring)      | TPU (95A)               |
+| Assembly               | Tool-free, hand-pressed |
 
 ---
 
 ## Print Settings
 
 - **Handles (PLA):**
-  - Layer Height: 0.2 mm
-  - Infill: 30%
-  - Orientation: Vertical for jaw strength
+  - Layer Height: 0.6 mm
+  - Infill: 100%
+  - Orientation: Flat on the surface for maximum layer adhesion and strength at stress points
 - **Spring (TPU):**
-  - Layer Height: 0.2 mm
-  - Walls: 3
-  - Infill: 100% (for better elasticity)
-- Printed using standard Voron printer with separate passes for each material.
+  - Layer Height: 0.6 mm
+  - Infill: 25% (for better elasticity), Grid Pattern, Top and Bottom infill layers removed
+- Printed using a standard Voron printer with adjusted slicer settings.
 
 ---
 
 ### Discussion
 
 **Challenges and Iterations**  
-- Early prints lacked sufficient clearance between jaws and hinge, resulting in fused parts.
+- Early prints lacked sufficient clearance between the jaws and the hinge, resulting in fused parts.
 - A test piece was printed for the spring-fit to dial in tolerances.
-- TPU proved difficult to print without stringing; printing speed and retraction were adjusted.
-- Final version had an optimized jaw taper for precision gripping of small resistors.
+- TPU presented some challenges during printing, particularly with occasional stringing in areas with long travel moves or retraction gaps.
+- When printing the spring component, if the retaining wedges were too small, the printer tended to round them off or print them as rectangles, which compromised their ability to securely hold all five parts together.
+- The final version had an optimized jaw taper for precision gripping of small resistors.
 
 **Performance Review**  
 The pliers snapped together easily and operated smoothly thanks to the TPU spring. They reliably gripped small components, returning to the open position without user input.
