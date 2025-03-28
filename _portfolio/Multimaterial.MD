@@ -20,7 +20,7 @@ gallery:
 This project focused on designing needle nose pliers capable of gripping through-hole resistors using a print-in-place approach and incorporating a flexible spring component. The final design featured a 5-part assembly (2 rigid claws, 2 rigid handles, and 1 TPU spring) that requires no tools to assemble, functioning immediately after pressing the pieces together.
 
 ### What is Print-in-Place?
-Print-in-place designs are multi-component models printed as a single object or pre-assembled kit, with built-in clearances that allow moving parts to function directly after printing—no screws, glue, or assembly required. These designs are commonly seen in toys, tools, and hinges, and they showcase the precision possible in 3D printing.
+Print-in-place designs are multi-component models printed as a single object or pre-assembled kit, with built-in clearances that allow moving parts to function directly after printing no screws, glue, or assembly required. These designs are commonly seen in toys, tools, and hinges, and they showcase the precision possible in 3D printing.
 
 More complex assemblies may benefit from **multi-material prints**, where elastic materials like TPU are combined with rigid ones to simulate integrated mechanical behavior. This approach enables the creation of parts with built-in springs, gaskets, flexible joints, or soft-touch surfaces—all within a single, cohesive print. These designs not only reduce assembly time but also enhance part functionality and durability by eliminating weak points like fasteners or adhesives.
 
