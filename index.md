@@ -18,7 +18,7 @@ feature_row:
     alt: "Microfluidics Mold"
     title: "Microfluidics Mold"
     excerpt: "A resin-printed mold that enhances precision in microfluidic pinch-flow sorting."
-  - image_path: assets/img/PLiers 1.jpg
+  - image_path: assets/img/PLiers 1.jpg 
     alt: "Multimaterial Pliers"
     title: "Multimaterial Pliers"
     excerpt: "Design and 3D print multi-material pliers with a flexible spring."
