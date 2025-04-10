@@ -18,7 +18,7 @@ gallery:
 
 ## Introduction
 
-This project involved designing and 3D printing a functional phone holder for a bicycle using a **top-down modeling approach** in Fusion 360. The holder secures a smartphone onto handlebars and allows the user to rotate the phone between portrait and landscape orientations using a detent-based snapping mechanism. The device was modeled around a fixed handlebar component and a CAD model of the user’s phone, allowing for seamless design integration and component alignment.
+This project involved designing and 3D printing a functional phone holder for a bicycle using a **top-down modeling approach** in Fusion 360. The holder secures a smartphone onto handlebars, allowing the user to rotate the phone between portrait and landscape orientations using a detent-based snapping mechanism. The device was modeled around a fixed handlebar component and a CAD model of the user’s phone, allowing for seamless design integration and component alignment.
 
 ### Project Objectives
 - Quick phone attachment/detachment without tools
@@ -29,7 +29,7 @@ This project involved designing and 3D printing a functional phone holder for a 
 ## Design Features
 
 ### Top-Down CAD Modeling
-Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of the user’s phone was imported and positioned in a natural viewing angle. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Parametric dimensions were applied to enable easy tweaking for fit and clearance.
+Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of my current phone was imported and positioned at a natural viewing angle, either landscape or portrait. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Parametric dimensions were applied to enable easy tweaking for fit and clearance.
 
 ### Detent Rotation Mechanism
 The rotating mount includes a detent mechanism: a **spring-loaded ball bearing** that locks into shallow circular notches on the rotating disc. This provides tactile feedback and holds the phone in fixed orientations during use. The mechanism was prototyped separately and iteratively refined to optimize holding strength without restricting rotation.
@@ -38,7 +38,7 @@ The rotating mount includes a detent mechanism: a **spring-loaded ball bearing**
 - **Clamp mount** fits both 22.2 mm and 25.4 mm bars with swappable sleeves
 - **Snap-fit arms** securely grip the phone without tools
 - **Rotation disc** and detent interface ensure tactile rotation
-- Printed with **PETG filament** for durability, UV resistance, and slight flex
+- Printed with **PLA filament** and **TPU filament** for the phone holder simply for demonstration purposes
 
 ---
 
@@ -53,10 +53,10 @@ The rotating mount includes a detent mechanism: a **spring-loaded ball bearing**
 3. Install the spring and ball bearing into the detent chamber.
 4. Assemble the rotating disc and snap the phone clamp onto the phone.
 5. Attach the clamp mount to the handlebars using M5 bolts or Allen keys.
-6. Rotate the phone to desired orientation until it snaps into place.
+6. Rotate the phone to the desired orientation until it snaps into place.
 
 ### Printing Tips
-- Use **0.2 mm layer height** and **40-50% infill** for strength.
+- Use **0.6 mm layer height** and **40-50% infill** for strength.
 - Print detent parts vertically to resist shear.
 - Optional: Use powder printing for smoother surface finish and stronger parts if available.
 
@@ -69,11 +69,11 @@ Top-down modeling enabled a highly integrated design where every component fit t
 
 ### Functional Results
 - The holder successfully rotated between orientations with a satisfying "click".
-- Phone stayed secure during vibration testing.
+- The phone stayed secure during vibration testing.
 - Swapping between phones of similar size only required parameter adjustment.
 
 ### Limitations & Improvements
-- Detent ball housing could be tighter for higher holding force.
+- Detent ball housing could be tighter for a higher holding force.
 - Introducing rubber pads or TPU inserts could improve grip and vibration damping.
 - Adding a tool-free tightening knob for the clamp may improve field usability.
 
