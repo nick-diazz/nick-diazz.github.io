@@ -2,8 +2,8 @@
 title: "Top-Down Modeled Bike Phone Holder"
 excerpt: "A modular phone mount for bikes that enables quick attachment, smooth rotation, and stable use through road vibration, built using a top-down CAD approach."
 header:
-  image: /assets/img/phoneholder_mount.jpg
-  teaser: /assets/img/phoneholder_mount.jpg
+  image: /assets/img/IMG_2887.jpg
+  teaser: /assets/img/IMG_2887.jpg
 gallery:
   - url: /assets/img/phoneholder1.jpg
     image_path: assets/img/phoneholder1.jpg
