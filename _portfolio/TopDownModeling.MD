@@ -5,14 +5,14 @@ header:
   image: /assets/img/IMG_2887.jpg
   teaser: /assets/img/IMG_2887.jpg
 gallery:
-  - url: /assets/img/phoneholder1.jpg
-    image_path: assets/img/phoneholder1.jpg
-    alt: "Top view of mounted phone holder"
-  - url: /assets/img/phoneholder2.jpg
-    image_path: assets/img/phoneholder2.jpg
+  - url: /assets/img/IMG_2890.jpg
+    image_path: assets/img/IMG_2890.jpg
+    alt: "Front view of mounted phone holder"
+  - url: /assets/img/IMG_2889.jpg
+    image_path: assets/img/IMG_2889.jpg
     alt: "Side view of detent mechanism"
-  - url: /assets/img/phoneholder3.jpg
-    image_path: assets/img/phoneholder3.jpg
+  - url: /assets/img/IMG_5653.JPEG
+    image_path: assets/img/IMG_5653.JPEG
     alt: "Phone holder installed on handlebars"
 ---
 
