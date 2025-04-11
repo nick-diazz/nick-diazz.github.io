@@ -33,7 +33,7 @@ Using a top-down approach, the handlebar served as the fixed reference component
 
 ### Rotation Mechanism Used
 
-![Detent Mechanism](assets/img/dETENT.png)
+![Detent Mechanism](/assets/img/dETENT.png)
 
 The rotating mount includes a detent mechanism: a **spring-loaded ball bearing** that locks into shallow circular notches on the rotating disc. This provides tactile feedback and holds the phone in fixed orientations during use. The mechanism was prototyped separately and iteratively refined to optimize holding strength without restricting rotation.
 
