@@ -26,19 +26,24 @@ This project involved designing and 3D printing a functional phone holder for a 
 - Secure grip under road vibrations
 - Clamp compatibility with 22.2 mm and 25.4 mm bike handlebars
 
-## Design Features
+## Design Features/Rationale
 
 ### Top-Down CAD Modeling
 Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of my current phone was imported and positioned at a natural viewing angle, either landscape or portrait. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Although parametric dimensions were not applied, if done correctly, it enables for easy tweaking for fit and clearance.
 
-### Detent Rotation Mechanism
+### Rotation Mechanism Used
+
+![Detent Mechanism](assets/img/dETENT.png)
+
 The rotating mount includes a detent mechanism: a **spring-loaded ball bearing** that locks into shallow circular notches on the rotating disc. This provides tactile feedback and holds the phone in fixed orientations during use. The mechanism was prototyped separately and iteratively refined to optimize holding strength without restricting rotation.
+
+### Printing Approach and Dimensional Considerations
+For this project, I used **FFF (Fused Filament Fabrication)** to produce all parts, choosing materials based on the mechanical requirements of each component. I used PLA for the clamp base, rotation disc, and detent ring due to its rigidity, dimensional accuracy, and ease of printing. These components needed to maintain precise geometry and structural stability, which PLA provided reliably. For the phone clamp arms, I selected **TPU** to introduce flexibility, allowing the arms to stretch around the phone for a secure, non-damaging grip. TPU’s shock-absorbing properties also helped dampen vibrations from riding on uneven surfaces. To ensure proper fit and functionality, I adjusted critical dimensions to account for the tolerances inherent in FFF printing. This included adding **0.2–0.3 mm of clearance** between moving parts like the detent interface and rotating disc, as well as slightly widening contact surfaces for the TPU clamps. I also incorporated filleted edges where needed to improve part separation, ease of assembly, and reduce the risk of binding or poor alignment caused by over-extrusion or layer shifting during the print process.
 
 ### Structural Design
 - **Clamp mount** fits both 22.2 mm and 25.4 mm bars with swappable sleeves
 - **Snap-fit arms** securely grip the phone without tools
 - **Rotation disc/Detent** and detent interface ensure tactile rotation
-- Printed with **PLA filament** and **TPU filament** for the phone holder simply for demonstration purposes
 
 ---
 
