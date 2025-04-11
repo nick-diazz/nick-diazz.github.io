@@ -45,6 +45,12 @@ For this project, I used **FFF (Fused Filament Fabrication)** to produce all par
 - **Snap-fit arms** securely grip the phone without tools
 - **Rotation disc/Detent** and detent interface ensure tactile rotation
 
+<div style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;">
+  <img src="/assets/img/Clamp.png" alt="Clamp Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="/assets/img/PHONE HOLDER.png" alt="Phone Holder Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="/assets/img/DETENT2.png" alt="Detent Mechanism Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
+</div>
+
 ---
 
 ## Instructions
