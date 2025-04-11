@@ -29,7 +29,7 @@ This project involved designing and 3D printing a functional phone holder for a 
 ## Design Features
 
 ### Top-Down CAD Modeling
-Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of my current phone was imported and positioned at a natural viewing angle, either landscape or portrait. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Parametric dimensions were applied to enable easy tweaking for fit and clearance.
+Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of my current phone was imported and positioned at a natural viewing angle, either landscape or portrait. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Although parametric dimensions were not applied, if done correctly, it enables for easy tweaking for fit and clearance.
 
 ### Detent Rotation Mechanism
 The rotating mount includes a detent mechanism: a **spring-loaded ball bearing** that locks into shallow circular notches on the rotating disc. This provides tactile feedback and holds the phone in fixed orientations during use. The mechanism was prototyped separately and iteratively refined to optimize holding strength without restricting rotation.
@@ -37,7 +37,7 @@ The rotating mount includes a detent mechanism: a **spring-loaded ball bearing**
 ### Structural Design
 - **Clamp mount** fits both 22.2 mm and 25.4 mm bars with swappable sleeves
 - **Snap-fit arms** securely grip the phone without tools
-- **Rotation disc** and detent interface ensure tactile rotation
+- **Rotation disc/Detent** and detent interface ensure tactile rotation
 - Printed with **PLA filament** and **TPU filament** for the phone holder simply for demonstration purposes
 
 ---
@@ -48,7 +48,7 @@ The rotating mount includes a detent mechanism: a **spring-loaded ball bearing**
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a494c339b681f3f63d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Assembly Overview
-1. Print the individual components: base clamp, rotating disc, phone clamp, detent ring.
+1. Print the individual components with their respective print settings and filament: base clamp, rotating disc, phone clamp, detent ring.
 2. Insert M3 fasteners and heat-set inserts where applicable.
 3. Install the spring and ball bearing into the detent chamber.
 4. Assemble the rotating disc and snap the phone clamp onto the phone.
@@ -69,8 +69,7 @@ Top-down modeling enabled a highly integrated design where every component fit t
 
 ### Functional Results
 - The holder successfully rotated between orientations with a satisfying "click".
-- The phone stayed secure during vibration testing.
-- Swapping between phones of similar size only required parameter adjustment.
+- The phone stayed secure during minor shakes or vibrations.
 
 ### Limitations & Improvements
 - Detent ball housing could be tighter for a higher holding force.
@@ -94,8 +93,3 @@ Top-down modeling enabled a highly integrated design where every component fit t
 <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ---
-
-### References
-- [Top-Down CAD Overview](https://www.youtube.com/watch?v=QnqAtSeqRPo)
-- [Bike Handlebar Standards](https://a.co/d/iuKd8nz)
-- [Detent Mechanism Components](https://a.co/d/6SNhmxb)
