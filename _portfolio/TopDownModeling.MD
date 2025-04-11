@@ -45,7 +45,7 @@ The rotating mount includes a detent mechanism: a **spring-loaded ball bearing**
 ## Instructions
 
 ### Interactive CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4dc1395df3c21536d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a494c339b681f3f63d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Assembly Overview
 1. Print the individual components: base clamp, rotating disc, phone clamp, detent ring.
