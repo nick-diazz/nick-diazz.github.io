@@ -90,6 +90,11 @@ Top-down modeling enabled a highly integrated design where every component fit t
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EEker-w1FwE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/NNYjPUZ" data-context="false">
+  <a href="//imgur.com/a/NNYjPUZ">View phone holder rotation GIF</a>
+</blockquote>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 ---
 
 ### References
