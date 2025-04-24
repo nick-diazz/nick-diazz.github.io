@@ -1,55 +1,69 @@
 ---
 title: "Creating a Spool Holder using Generative Design"
-excerpt: "A modular phone mount for bikes that enables quick attachment, smooth rotation, and stable use through road vibration, built using a top-down CAD approach."
+excerpt: "A generatively optimized filament spool holder designed to reduce material use while maintaining strength, featuring multiple preserve/obstacle geometries and realistic mechanical load cases."
 header:
   image: /assets/img/IMG_2887.jpg
   teaser: /assets/img/IMG_2887.jpg
 gallery:
   - url: /assets/img/IMG_2890.jpg
     image_path: assets/img/IMG_2890.jpg
-    alt: "Front view of mounted phone holder"
+    alt: "Front view of printed spool holder"
   - url: /assets/img/IMG_2889.jpg
     image_path: assets/img/IMG_2889.jpg
-    alt: "Side view of detent mechanism"
+    alt: "Side view of mounting interface"
   - url: /assets/img/IMG_5653.JPEG
     image_path: assets/img/IMG_5653.JPEG
-    alt: "Phone holder installed on handlebars"
+    alt: "Spool holder installed on 3D printer frame"
 ---
 
 ## Introduction
 
-This project involved designing and 3D printing a functional phone holder for a bicycle using a **top-down modeling approach** in Fusion 360. The holder secures a smartphone onto handlebars, allowing the user to rotate the phone between portrait and landscape orientations using a detent-based snapping mechanism. The device was modeled around a fixed handlebar component and a CAD model of the user’s phone, allowing for seamless design integration and component alignment.
+This project involved using Fusion 360's generative design tools to create a functional and efficient spool holder for a 3D printer. The goal was to generate an organic, structurally sound component using selective laser sintering (SLS) with PA12 nylon. The design had to accommodate the load of a 1kg spool of filament, prevent slippage of the guide tube, and survive clumsy lab environments.
 
 ### Project Objectives
-- Quick phone attachment/detachment without tools
-- Smooth snap rotation between landscape and portrait
-- Secure grip under road vibrations
-- Clamp compatibility with 22.2 mm and 25.4 mm bike handlebars
+- Reduce mass while preserving structural strength
+- Properly support a full filament spool and prevent twisting
+- Avoid material in critical operating zones (obstacle geometry)
+- Enable secure retention of the filament guide tube
+- Design for SLS manufacturing and a bounding box of 100mm x 100mm x 100mm
 
-## Design Features/Rationale
+## Design Features / Rationale
 
-### Top-Down CAD Modeling
-Using a top-down approach, the handlebar served as the fixed reference component. A CAD model of my current phone was imported and positioned at a natural viewing angle, either landscape or portrait. Components such as the rotation disc, detent ring, phone clamp, and handlebar mount were designed in place using **as-built joints**. Although parametric dimensions were not applied, if done correctly, it enables for easy tweaking for fit and clearance.
+### Preserve & Obstacle Geometry
 
-### Rotation Mechanism Used
+- **Preserve Geometries:**
+  - Mounting holes and baseplate for attachment to the printer
+  - Spool support axle
+  - Filament guide tube holder (added to meet project requirements)
 
-![Detent Mechanism](/assets/img/dETENT.png)
+- **Obstacle Geometries:**
+  - Volume occupied by the filament spool
+  - Path of the filament between spool and extruder
+  - Clearance zones for mounting and assembly
 
-The rotating mount includes a detent mechanism: a **spring-loaded ball bearing** that locks into shallow circular notches on the rotating disc. This provides tactile feedback and holds the phone in fixed orientations during use. The mechanism was prototyped separately and iteratively refined to optimize holding strength without restricting rotation.
+### Load Conditions
 
-### Printing Approach and Dimensional Considerations
-For this project, I used **FFF (Fused Filament Fabrication)** to produce all parts, choosing materials based on the mechanical requirements of each component. I used PLA for the clamp base, rotation disc, and detent ring due to its rigidity, dimensional accuracy, and ease of printing. These components needed to maintain precise geometry and structural stability, which PLA provided reliably. For the phone clamp arms, I selected **TPU** to introduce flexibility, allowing the arms to stretch around the phone for a secure, non-damaging grip. TPU’s shock-absorbing properties also helped dampen vibrations from riding on uneven surfaces. To ensure proper fit and functionality, I adjusted critical dimensions to account for the tolerances inherent in FFF printing. This included adding **0.2–0.3 mm of clearance** between moving parts like the detent interface and rotating disc, as well as slightly widening contact surfaces for the TPU clamps. I also incorporated filleted edges where needed to improve part separation, ease of assembly, and reduce the risk of binding or poor alignment caused by over-extrusion or layer shifting during the print process.
+| Name                      | Type       | Magnitude       | Location                          | Rationale                                                   |
+|---------------------------|------------|------------------|-----------------------------------|-------------------------------------------------------------|
+| Spool Weight             | Force      | 12 N            | Vertical, on top of axle          | Simulates the downward force of a full spool                |
+| Filament Pull            | Force      | 5 N             | Side of axle or guide tube holder| Lateral tension as filament is pulled into extruder         |
+| Spool Torque             | Moment     | 880 N·mm        | Around Z-axis of axle             | Simulates rotational torque as filament unspools            |
+| Guide Tube Retention     | Pressure   | 0.1 MPa         | Inside surface of guide holder    | Ensures press-fit retention of 4 mm plastic tube            |
+| Vertical Tube Force      | Force      | 2 N             | Downward on guide tube holder     | Simulates misalignment or gravitational force               |
+| Impact Load (Clumsy Hit) | Force      | 15 N            | Horizontal on side of vertical arm| Adds robustness for accidental side bumps                   |
+| Spool Swap Pull          | Force      | 10 N            | Axial on end of spool support     | Models manual loading/unloading force on spool post         |
 
-### Structural Design
-- **Clamp mount** fits both 22.2 mm and 25.4 mm bars with swappable sleeves
-- **Snap-fit arms** securely grip the phone without tools
-- **Rotation disc/Detent** and detent interface ensure tactile rotation
+### Structural Constraints
 
-<div style="display: flex; justify-content: center; gap: 10px; margin-top: 15px;">
-  <img src="/assets/img/Clamp.png" alt="Clamp Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
-  <img src="/assets/img/PHONE HOLDER.png" alt="Phone Holder Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
-  <img src="/assets/img/DETENT2.png" alt="Detent Mechanism Image" style="width: 30%; border: 1px solid #ccc; border-radius: 8px;" />
-</div>
+- Fully fixed constraints applied to mounting holes and baseplate
+- All loads applied only to preserve geometry
+- No constraints applied to the spool or guide tube preserve to allow full generative optimization
+
+### Manufacturing Constraints
+
+- SLS constraints set to “unrestricted” for organic forms
+- Designed to fit within 100 x 100 x 100 mm build volume
+- Functional iteration done in PLA before final SLS print
 
 ---
 
@@ -58,49 +72,27 @@ For this project, I used **FFF (Fused Filament Fabrication)** to produce all par
 ### Interactive CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a494c339b681f3f63d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-### Assembly Overview
-1. Print the individual components with their respective print settings and filament: base clamp, rotating disc, phone clamp, detent ring.
-2. Insert M3 fasteners and heat-set inserts where applicable.
-3. Install the spring and ball bearing into the detent chamber.
-4. Assemble the rotating disc and snap the phone clamp onto the phone.
-5. Attach the clamp mount to the handlebars using M5 bolts or Allen keys.
-6. Rotate the phone to the desired orientation until it snaps into place.
-
-### Printing Tips
-- Use **0.6 mm layer height** and **40-50% infill** for strength.
-- Print detent parts vertically to resist shear.
-- Optional: Use powder printing for smoother surface finish and stronger parts if available.
+### Assembly Instructions
+1. Insert the guide tube into the holder; it should press-fit snugly.
+2. Mount the spool holder to the printer using screws or bolts.
+3. Load the filament onto the support axle and feed into the guide tube.
+4. Perform test spins to ensure smooth rotation and secure guidance.
 
 ---
 
-## Discussion
+## Testing & Functional Results
 
-### Modeling Strategy
-Top-down modeling enabled a highly integrated design where every component fit together without later adjustments. Starting from a fixed handlebar model and a CAD phone ensured the mount was optimized for real-world use and sightlines. As-built joints were crucial for defining component relationships without over-constraining the model.
+- The final printed part survived repeated spool swaps and moderate bumps.
+- Filament pulled through the guide tube without slipping.
+- No warping or fracture observed in stress areas.
+- Compared to earlier PLA prototype, the SLS print was 35% lighter and more organic.
 
-### Functional Results
-- The holder successfully rotated between orientations with a satisfying "click".
-- The phone stayed secure during minor shakes or vibrations.
-
-### Limitations & Improvements
-- Detent ball housing could be tighter for a higher holding force.
-- Introducing rubber pads or TPU inserts could improve grip and vibration damping.
-- Adding a tool-free tightening knob for the clamp may improve field usability.
-
-### Potential Extensions
-- Modular arm attachments for GoPros or lights
-- Quick-release tab for single-hand removal
-- Embedded NFC tag or phone charger integration
+### Suggested Improvements
+- Add TPU grip interface for quieter guide tube fit
+- Embed textured grip under base for more secure surface contact
 
 ---
 
-## Multimedia
+## Gallery
 
-{% include gallery caption="Gallery of bike phone holder and detent mechanism in use." %}
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/NNYjPUZ" data-context="false">
-  <a href="//imgur.com/a/NNYjPUZ">View phone holder rotation GIF</a>
-</blockquote>
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
----
+{% include gallery caption="Gallery of the spool holder in design and mounted on printer." %}
