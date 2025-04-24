@@ -1,5 +1,5 @@
 ---
-title: "Top-Down Modeled Bike Phone Holder"
+title: "Creating a Spool Holder using Generative Design"
 excerpt: "A modular phone mount for bikes that enables quick attachment, smooth rotation, and stable use through road vibration, built using a top-down CAD approach."
 header:
   image: /assets/img/IMG_2887.jpg
