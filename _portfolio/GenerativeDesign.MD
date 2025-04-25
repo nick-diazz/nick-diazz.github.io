@@ -41,6 +41,8 @@ This project involved using Fusion 360's generative design tools to create a fun
   - Path of the filament between spool and extruder
   - Clearance zones for mounting and assembly
 
+![Preserve and Obstacle Geometry Diagram](/assets/img/Screenshot 2025-04-25 152758.png)
+
 ### Load Conditions
 
 | Name                      | Type       | Magnitude       | Location                          | Rationale                                                   |
