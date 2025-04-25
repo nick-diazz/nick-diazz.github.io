@@ -5,14 +5,14 @@ header:
   image: /assets/img/IMG_2887.jpg
   teaser: /assets/img/IMG_2887.jpg
 gallery:
-  - url: /assets/img/IMG_2890.jpg
-    image_path: assets/img/IMG_2890.jpg
+  - url: /assets/img/IMG_3055.jpg
+    image_path: assets/img/IMG_3055.jpg
     alt: "Front view of printed spool holder"
-  - url: /assets/img/IMG_2889.jpg
-    image_path: assets/img/IMG_2889.jpg
+  - url: /assets/img/IMG_3056.jpg
+    image_path: assets/img/IMG_3056.jpg
     alt: "Side view of mounting interface"
-  - url: /assets/img/IMG_5653.JPEG
-    image_path: assets/img/IMG_5653.JPEG
+  - url: /assets/img/IMG_3059.jpg
+    image_path: assets/img/IMG_3059.jpg
     alt: "Spool holder installed on 3D printer frame"
 ---
 
