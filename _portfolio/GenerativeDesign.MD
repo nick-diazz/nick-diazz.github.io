@@ -72,7 +72,7 @@ This project involved using Fusion 360's generative design tools to create a fun
 ## Instructions
 
 ### Interactive CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a494c339b681f3f63d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c536b47565c88ffa?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Assembly Instructions
 1. Insert the guide tube into the holder; it should press-fit snugly.
