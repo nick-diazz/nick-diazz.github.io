@@ -2,8 +2,8 @@
 title: "Creating a Spool Holder using Generative Design"
 excerpt: "A generatively optimized filament spool holder designed to reduce material use while maintaining strength, featuring multiple preserve/obstacle geometries and realistic mechanical load cases."
 header:
-  image: /assets/img/IMG_2887.jpg
-  teaser: /assets/img/IMG_2887.jpg
+  image: /assets/img/IMG_3055.jpg
+  teaser: /assets/img/IMG_3055.jpg
 gallery:
   - url: /assets/img/IMG_3055.jpg
     image_path: assets/img/IMG_3055.jpg
