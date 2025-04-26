@@ -18,11 +18,11 @@ gallery:
 
 ## Introduction
 
-This project was all about using Fusion 360's generative design tools to create a functional and efficient spool holder that would be mounted on a 3D printer. One of the issues with the current spool holder is how it is mounted on the back and users cannot see how much filament is left on the spool. The goal was essentially to solve this issue and be able to generate an organic, structurally sound component using selective laser sintering (SLS) with PA12 nylon. The design had to be able to withstand the weight of a full spool of filament, be able to hold the guide tube that leads the filament to the extruder, and survive clumsy lab environments.
+This project was all about using Fusion 360's generative design tools to create a functional and efficient spool holder that would be mounted on a 3D printer. One of the issues with the current spool holder is how it is mounted on the back, and users cannot see how much filament is left on the spool. The goal was to solve this issue and be able to generate an organic, structurally sound component using selective laser sintering (SLS) with PA12 nylon. The design had to be able to withstand the weight of a full spool of filament, hold the guide tube that leads the filament to the extruder, and survive clumsy lab environments.
 
 ### Project Objectives
 - Reduce mass while preserving structural strength
-- Properly support a full filament spool and prevent twisting
+- Properly support a full filament spool and prevent twisting or tangling
 - Avoid material in critical operating zones (obstacle geometry)
 - Enable secure retention of the filament guide tube
 - Design for SLS manufacturing and a bounding box of 100mm x 100mm x 100mm
