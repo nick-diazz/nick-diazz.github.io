@@ -24,7 +24,7 @@ This project was all about using Fusion 360's generative design tools to create 
 - Reduce mass while preserving structural strength
 - Properly support a full filament spool and prevent twisting or tangling
 - Avoid material in critical operating zones (obstacle geometry)
-- Enable secure retention of the filament guide tube
+- Enable secure retention/holding of the filament guide tube
 - Design for SLS manufacturing and a bounding box of 100mm x 100mm x 100mm
 
 ## Design Features / Rationale
@@ -34,7 +34,7 @@ This project was all about using Fusion 360's generative design tools to create 
 - **Preserve Geometries (GREEN):**
   - Mounting holes and baseplate for attachment to the printer
   - Spool support axle
-  - Filament guide tube holder (added to meet project requirements)
+  - Filament guide tube holder (added to meet project requirements (have at least 3 preserve and 3 obstacle geometries))
 
 - **Obstacle Geometries (RED):**
   - Volume occupied by the filament spool
@@ -43,29 +43,32 @@ This project was all about using Fusion 360's generative design tools to create 
 
 ![Preserve and Obstacle Geometry Diagram](/assets/img/Screenshot 2025-04-25 152758.png)
 
-### Load Conditions
+### Loading Conditions
 
-| Name                      | Type       | Magnitude       | Location                          | Rationale                                                   |
-|---------------------------|------------|------------------|-----------------------------------|-------------------------------------------------------------|
-| Spool Weight             | Force      | 12 N            | Vertical, on top of axle          | Simulates the downward force of a full spool                |
-| Filament Pull            | Force      | 5 N             | Side of axle or guide tube holder| Lateral tension as filament is pulled into extruder         |
-| Spool Torque             | Moment     | 880 N·mm        | Around Z-axis of axle             | Simulates rotational torque as filament unspools            |
-| Guide Tube Retention     | Pressure   | 0.1 MPa         | Inside surface of guide holder    | Ensures press-fit retention of 4 mm plastic tube            |
-| Vertical Tube Force      | Force      | 2 N             | Downward on guide tube holder     | Simulates misalignment or gravitational force               |
-| Impact Load (Clumsy Hit) | Force      | 15 N            | Horizontal on side of vertical arm| Adds robustness for accidental side bumps                   |
-| Spool Swap Pull          | Force      | 10 N            | Axial on end of spool support     | Models manual loading/unloading force on spool post         |
+| Load Name                | Description                                   | Magnitude | Direction       |
+|---------------------------|-----------------------------------------------|-----------|-----------------|
+| Vertical Tube Force       | Weight of filament guide tube                | 3.5 N     | Downward        |
+| Spool Mounting Load        | Force from spool weight when mounted         | Varies    | Vertical        |
+| Tension Force in Filament  | Pulling force from extruder motor            | ~1-5 N    | Toward Extruder |
+
+### Additional Forces
+
+| Load Name                        | Description                                             | Magnitude | Direction            |
+|-----------------------------------|---------------------------------------------------------|-----------|----------------------|
+| Spool Push Force (Loading)        | User pushing spool onto the mount                       | 10 N      | Horizontal (axial)   |
+| Guide Tube Weight                 | Weight of filament guide tube (duplicated for clarity)  | 3.5 N     | Vertical (downward)  |
+| Top Guide Tube Holder Force       | Force during loading/unloading guide tube               | 5 N       | Various (user applied) |
+| Impact Load on Guide Tube Holder  | Accidental bump during clumsy handling                  | 30 N      | Left/Right (lateral)  |
 
 ### Structural Constraints
 
-- Fully fixed constraints applied to mounting holes and baseplate
-- All loads applied only to preserve geometry
-- No constraints applied to the spool or guide tube preserve to allow full generative optimization
+- The mounting part of the spool holder was fully fixed 
+- All loads were only applied to the preserve geometry
 
 ### Manufacturing Constraints
 
-- SLS constraints set to “unrestricted” for organic forms
-- Designed to fit within 100 x 100 x 100 mm build volume
-- Functional iteration done in PLA before final SLS print
+- Manufacturing constraints were set to “unrestricted” for best outcomes
+- Although the hodlder was intended to fit within 100 x 100 x 100 mm build volume, it was built more towards 130 × 105 × 285 mm
 
 ---
 
@@ -75,23 +78,23 @@ This project was all about using Fusion 360's generative design tools to create 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4c536b47565c88ffa?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Assembly Instructions
-1. Insert the guide tube into the holder; it should press-fit snugly.
+1. Insert the guide tube into the holder; it should press-fit snugly. If need be, use a drill to make the hole a little wider
 2. Mount the spool holder to the printer using screws or bolts.
-3. Load the filament onto the support axle and feed into the guide tube.
+3. Load the filament onto the cylindrical part of the spool holder and feed the filament into the guide tube.
 4. Perform test spins to ensure smooth rotation and secure guidance.
 
 ---
 
 ## Testing & Functional Results
 
-- The final printed part survived repeated spool swaps and moderate bumps.
+- The final printed part survived repeated spool swaps and moderate bumps and shakes.
 - Filament pulled through the guide tube without slipping.
-- No warping or fracture observed in stress areas.
-- Compared to earlier PLA prototype, the SLS print was 35% lighter and more organic.
+- There was no warping or any types of fractures observed in areas of stress.
 
 ### Suggested Improvements
 - Add TPU grip interface for quieter guide tube fit
 - Embed textured grip under base for more secure surface contact
+- Make preserve geometries in Fusion a little bigger to help the AI have better creativity and produce better outcomes overall
 
 ---
 
