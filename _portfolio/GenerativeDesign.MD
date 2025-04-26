@@ -62,13 +62,15 @@ This project was all about using Fusion 360's generative design tools to create 
 
 ### Structural Constraints
 
-- The mounting part of the spool holder was fully fixed 
-- All loads were only applied to the preserve geometry
+The main structural constraints applied to this model only really include the mounting part of the spool holder, which was fully fixed. All loads were only applied to the preserved geometry. Setting the bottom of the mounting plate to fully fixed limits the AI in what to change/generate when having to connect all the pieces. 
 
 ### Manufacturing Constraints
 
-- Manufacturing constraints were set to “unrestricted” for best outcomes
-- Although the hodlder was intended to fit within 100 x 100 x 100 mm build volume, it was built more towards 130 × 105 × 285 mm
+Manufacturing constraints were set to “unrestricted” for the best outcomes. Although the holder was intended to fit within 100 x 100 x 100 mm build volume, it was built more towards 130 × 105 × 285 mm. 
+
+### How forces were determined
+
+I determined the magnitude, direction, and location of each load by using ChatGPT to estimate reasonable forces based on typical user interactions and component weights. For example, loads from the filament spool and guide tube were based on expected handling forces and gravity. To refine these loads on a real-world prototype, you can use tools like a spring scale to measure actual forces during use. Observing where stresses and deformations occur can help update the load cases for future design iterations. 
 
 ---
 
@@ -85,16 +87,22 @@ This project was all about using Fusion 360's generative design tools to create 
 
 ---
 
-## Testing & Functional Results
+## Testing | Functional Results | Critiques
 
 - The final printed part survived repeated spool swaps and moderate bumps and shakes.
 - Filament pulled through the guide tube without slipping.
-- There was no warping or any types of fractures observed in areas of stress.
+- There was no warping or any type of fractures observed in areas of stress.
 
 ### Suggested Improvements
 - Add TPU grip interface for quieter guide tube fit
 - Embed textured grip under base for more secure surface contact
 - Make preserve geometries in Fusion a little bigger to help the AI have better creativity and produce better outcomes overall
+
+### Critiques of Generative Design
+
+I feel as if Generative Design in 3D modeling is a very useful tool, but very specific when trying to produce something. You need to ensure that you have all of your preserve and obstacle geometries labeled correctly, all the forces with the right magnitudes, and all manufacturing/structural constraints set in place. There is also some software bias where the software will prioritize certain goals in the design over others, so make sure to review the results and adjust the design and constraints as needed. It took me a while to be able to produce a working design, but once you get the hang of it, it's pretty straightforward from there. 
+
+Overall, I feel like generative design is most useful in industries like aerospace, automotive, and medical devices, where lightweighting and performance optimization are critical. The software does well when having to create efficient structures that would be difficult to design manually. One way generative design falls short is in applactions that require simple, low-cost, or generic parts. This would be due to the complex geometries that can be hard to manufacture with traditional methods.
 
 ---
 
